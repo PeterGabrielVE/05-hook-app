@@ -18,9 +18,16 @@ export const SimpleForm = () => {
  }
 
  useEffect( () => {
-     console.log('UseEfect called')
- } )
+     console.log('UseEfect called');
+ },[] );
 
+ useEffect( () => {
+  console.log('formState called');
+},[formState] );
+
+useEffect( () => {
+  console.log('email called');
+},[ email ] );
   return (
     <>
         <h1>Formulario Simple</h1>
