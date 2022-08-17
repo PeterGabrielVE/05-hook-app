@@ -38,8 +38,9 @@ useEffect( () => {
         <input type="email" name="email" className="form-control mt-2" placeholder="gaboleal123@gmail.com" value={ email }  onChange={ onInputChange }/>
 
         {
-          <Message className="hidden"/>
+                (username === 'strider2' ) && <Message />
         }
+
     </>
   )
 }
