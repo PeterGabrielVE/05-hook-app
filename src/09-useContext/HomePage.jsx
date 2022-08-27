@@ -1,7 +1,7 @@
-export const HomeApp = () => {
+export const HomePage = () => {
     return (
       <>
-          <h1>HomeApp</h1>
+          <h1>HomePage</h1>
           <hr />
       </>
   

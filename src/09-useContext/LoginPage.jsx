@@ -1,7 +1,7 @@
-export const LoginApp = () => {
+export const LoginPage = () => {
     return (
       <>
-          <h1>LoginApp</h1>
+          <h1>LoginPage</h1>
           <hr />
       </>
   

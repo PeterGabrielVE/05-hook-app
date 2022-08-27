@@ -1,7 +1,7 @@
-export const AboutApp = () => {
+export const AboutPage = () => {
     return (
       <>
-          <h1>AboutApp</h1>
+          <h1>AboutPage</h1>
           <hr />
       </>
   
